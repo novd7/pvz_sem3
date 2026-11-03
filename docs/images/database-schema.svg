@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1510" viewBox="0 0 2600 1510"><rect width="100%" height="100%" fill="white"/>
+<polyline points="580,130.0 610,130.0 610,130 610,210 670,210 670,214.0 700,214.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="700,214.0 691,210.0 691,218.0" fill="#444444"/>
+<polyline points="700,130.0 670,130.0 670,130 670,520 610,520 610,518.0 580,518.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="580,518.0 589,514.0 589,522.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1270,270 1330,270 1330,270.0 1360,270.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,270.0 1351,266.0 1351,274.0" fill="#444444"/>
+<polyline points="580,130.0 610,130.0 610,130 680,130 680,310 1330,310 1330,300 1330,298.0 1360,298.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,298.0 1351,294.0 1351,302.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1260,130 1260,520 1270,520 1270,518.0 1240,518.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1240,518.0 1249,514.0 1249,522.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1340,130 1340,660 1330,660 1330,656.0 1360,656.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,656.0 1351,652.0 1351,660.0" fill="#444444"/>
+<polyline points="1240,490.0 1270,490.0 1270,490 1320,490 1320,680 1330,680 1330,684.0 1360,684.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,684.0 1351,680.0 1351,688.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1280,130 1280,1080 1270,1080 1270,1078.0 1240,1078.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1240,1078.0 1249,1074.0 1249,1082.0" fill="#444444"/>
+<polyline points="1360,130.0 1330,130.0 1330,130 1330,290 1290,290 1290,1130 1270,1130 1270,1134.0 1240,1134.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1240,1134.0 1249,1130.0 1249,1138.0" fill="#444444"/>
+<polyline points="1360,130.0 1330,130.0 1330,130 1330,140 1300,140 1300,1160 1270,1160 1270,1162.0 1240,1162.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1240,1162.0 1249,1158.0 1249,1166.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1270,120 1310,120 1310,1200 1330,1200 1330,1196.0 1360,1196.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,1196.0 1351,1192.0 1351,1200.0" fill="#444444"/>
+<polyline points="1240,1050.0 1270,1050.0 1270,1050 1260,1050 1260,1140 1330,1140 1330,1140.0 1360,1140.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1360,1140.0 1351,1136.0 1351,1144.0" fill="#444444"/>
+<polyline points="1900,600.0 1930,600.0 1930,600 1930,1170 1930,1168.0 1900,1168.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="1900,1168.0 1909,1164.0 1909,1172.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1270,60 1990,60 1990,1080 1990,1078.0 2020,1078.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1078.0 2011,1074.0 2011,1082.0" fill="#444444"/>
+<polyline points="1900,130.0 1930,130.0 1930,130 1980,130 1980,1130 1990,1130 1990,1134.0 2020,1134.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1134.0 2011,1130.0 2011,1138.0" fill="#444444"/>
+<polyline points="1900,600.0 1930,600.0 1930,600 1970,600 1970,1110 1990,1110 1990,1106.0 2020,1106.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1106.0 2011,1102.0 2011,1110.0" fill="#444444"/>
+<polyline points="1240,1050.0 1270,1050.0 1270,1050 1960,1050 1960,1160 1990,1160 1990,1162.0 2020,1162.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1162.0 2011,1158.0 2011,1166.0" fill="#444444"/>
+<polyline points="1240,490.0 1270,490.0 1270,490 1270,1040 1340,1040 1340,1300 1990,1300 1990,1302.0 2020,1302.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1302.0 2011,1298.0 2011,1306.0" fill="#444444"/>
+<polyline points="1240,490.0 1270,490.0 1270,490 1270,480 1920,480 1920,1330 1990,1330 1990,1330.0 2020,1330.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,1330.0 2011,1326.0 2011,1334.0" fill="#444444"/>
+<polyline points="1900,130.0 1930,130.0 1930,130 1930,590 1990,590 1990,610 1990,614.0 2020,614.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,614.0 2011,610.0 2011,618.0" fill="#444444"/>
+<polyline points="1240,130.0 1270,130.0 1270,130 1260,130 1260,50 2000,50 2000,640 1990,640 1990,642.0 2020,642.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,642.0 2011,638.0 2011,646.0" fill="#444444"/>
+<polyline points="1900,130.0 1930,130.0 1930,130 1940,130 1940,160 1990,160 1990,158.0 2020,158.0" fill="none" stroke="#444444" stroke-width="1.3"/>
+<polygon points="2020,158.0 2011,154.0 2011,162.0" fill="#444444"/>
+<rect x="40" y="80" width="540" height="100" fill="white" stroke="#333"/><rect x="41" y="81" width="538" height="35" fill="#d2d2d2"/>
+<text x="277.5" y="104" font-family="Arial,sans-serif" font-size="18" font-weight="700">regions</text>
+<text x="50" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="142" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="340" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="50" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">UK</text>
+<text x="142" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">name</text>
+<text x="340" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(150)</text>
+<rect x="700" y="80" width="540" height="212" fill="white" stroke="#333"/><rect x="701" y="81" width="538" height="35" fill="#d2d2d2"/>
+<text x="955.0" y="104" font-family="Arial,sans-serif" font-size="18" font-weight="700">pvz</text>
+<text x="710" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="802" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="1000" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">name</text>
+<text x="1000" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(150)</text>
+<text x="710" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">address</text>
+<text x="1000" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">TEXT</text>
+<text x="710" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="802" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">region_id</text>
+<text x="1000" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">capacity_per_hour</text>
+<text x="1000" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">INTEGER</text>
+<text x="710" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">is_active</text>
+<text x="1000" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">BOOLEAN</text>
+<rect x="40" y="440" width="540" height="184" fill="white" stroke="#333"/><rect x="41" y="441" width="538" height="35" fill="#d2d2d2"/>
+<text x="246.0" y="464" font-family="Arial,sans-serif" font-size="18" font-weight="700">pvz_schedules</text>
+<text x="50" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="142" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="340" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="50" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="142" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="340" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="50" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="142" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400">weekday</text>
+<text x="340" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400">SMALLINT</text>
+<text x="50" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="142" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400">open_time</text>
+<text x="340" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIME WITHOUT TIME ZONE</text>
+<text x="50" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="142" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400">close_time</text>
+<text x="340" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIME WITHOUT TIME ZONE</text>
+<rect x="1360" y="80" width="540" height="268" fill="white" stroke="#333"/><rect x="1361" y="81" width="538" height="35" fill="#d2d2d2"/>
+<text x="1606.0" y="104" font-family="Arial,sans-serif" font-size="18" font-weight="700">users</text>
+<text x="1370" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="1462" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="1660" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">UK</text>
+<text x="1462" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">login</text>
+<text x="1660" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="1370" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">password_hash</text>
+<text x="1660" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(255)</text>
+<text x="1370" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">full_name</text>
+<text x="1660" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(255)</text>
+<text x="1370" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">role</text>
+<text x="1660" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(20)</text>
+<text x="1370" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="1462" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="1660" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="1462" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400">region_id</text>
+<text x="1660" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400">is_active</text>
+<text x="1660" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400">BOOLEAN</text>
+<rect x="700" y="440" width="540" height="184" fill="white" stroke="#333"/><rect x="701" y="441" width="538" height="35" fill="#d2d2d2"/>
+<text x="912.5" y="464" font-family="Arial,sans-serif" font-size="18" font-weight="700">storage_cells</text>
+<text x="710" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="802" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="1000" y="496" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="802" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="1000" y="524" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400">number</text>
+<text x="1000" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="400">INTEGER</text>
+<text x="710" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400">capacity_liters</text>
+<text x="1000" y="580" font-family="Arial,sans-serif" font-size="16" font-weight="400">NUMERIC(12,3)</text>
+<text x="710" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400">is_active</text>
+<text x="1000" y="608" font-family="Arial,sans-serif" font-size="16" font-weight="400">BOOLEAN</text>
+<rect x="1360" y="550" width="540" height="352" fill="white" stroke="#333"/><rect x="1361" y="551" width="538" height="35" fill="#d2d2d2"/>
+<text x="1585.0" y="574" font-family="Arial,sans-serif" font-size="18" font-weight="700">shipments</text>
+<text x="1370" y="606" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="1462" y="606" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="1660" y="606" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="634" font-family="Arial,sans-serif" font-size="16" font-weight="400">UK</text>
+<text x="1462" y="634" font-family="Arial,sans-serif" font-size="16" font-weight="400">code</text>
+<text x="1660" y="634" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="1370" y="662" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="1462" y="662" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="1660" y="662" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="690" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="1462" y="690" font-family="Arial,sans-serif" font-size="16" font-weight="400">cell_id</text>
+<text x="1660" y="690" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="718" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="718" font-family="Arial,sans-serif" font-size="16" font-weight="400">volume_liters</text>
+<text x="1660" y="718" font-family="Arial,sans-serif" font-size="16" font-weight="400">NUMERIC(12,3)</text>
+<text x="1370" y="746" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="746" font-family="Arial,sans-serif" font-size="16" font-weight="400">status</text>
+<text x="1660" y="746" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(30)</text>
+<text x="1370" y="774" font-family="Arial,sans-serif" font-size="16" font-weight="400">UK</text>
+<text x="1462" y="774" font-family="Arial,sans-serif" font-size="16" font-weight="400">pickup_code</text>
+<text x="1660" y="774" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="1370" y="802" font-family="Arial,sans-serif" font-size="16" font-weight="400">UK</text>
+<text x="1462" y="802" font-family="Arial,sans-serif" font-size="16" font-weight="400">return_code</text>
+<text x="1660" y="802" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="1370" y="830" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="830" font-family="Arial,sans-serif" font-size="16" font-weight="400">pickup_deadline</text>
+<text x="1660" y="830" font-family="Arial,sans-serif" font-size="16" font-weight="400">DATE</text>
+<text x="1370" y="858" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="858" font-family="Arial,sans-serif" font-size="16" font-weight="400">created_at</text>
+<text x="1660" y="858" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<text x="1370" y="886" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="1462" y="886" font-family="Arial,sans-serif" font-size="16" font-weight="400">updated_at</text>
+<text x="1660" y="886" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<rect x="700" y="1000" width="540" height="240" fill="white" stroke="#333"/><rect x="701" y="1001" width="538" height="35" fill="#d2d2d2"/>
+<text x="892.0" y="1024" font-family="Arial,sans-serif" font-size="18" font-weight="700">return_dispatches</text>
+<text x="710" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="802" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="1000" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="802" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="1000" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400">status</text>
+<text x="1000" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(20)</text>
+<text x="710" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="802" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">created_by</text>
+<text x="1000" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="802" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">shipped_by</text>
+<text x="1000" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="710" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400">created_at</text>
+<text x="1000" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<text x="710" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="802" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400">shipped_at</text>
+<text x="1000" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<rect x="1360" y="1090" width="540" height="128" fill="white" stroke="#333"/><rect x="1361" y="1091" width="538" height="35" fill="#d2d2d2"/>
+<text x="1533.5" y="1114" font-family="Arial,sans-serif" font-size="18" font-weight="700">return_dispatch_items</text>
+<text x="1370" y="1146" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK/FK</text>
+<text x="1462" y="1146" font-family="Arial,sans-serif" font-size="16" font-weight="400">dispatch_id</text>
+<text x="1660" y="1146" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="1174" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK/FK/UK</text>
+<text x="1462" y="1174" font-family="Arial,sans-serif" font-size="16" font-weight="400">shipment_id</text>
+<text x="1660" y="1174" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="1370" y="1202" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="1462" y="1202" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="1660" y="1202" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<rect x="2020" y="1000" width="540" height="380" fill="white" stroke="#333"/><rect x="2021" y="1001" width="538" height="35" fill="#d2d2d2"/>
+<text x="2244.0" y="1024" font-family="Arial,sans-serif" font-size="18" font-weight="700">operations</text>
+<text x="2030" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="2122" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="2320" y="1056" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="2320" y="1084" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400">shipment_id</text>
+<text x="2320" y="1112" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">user_id</text>
+<text x="2320" y="1140" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">dispatch_id</text>
+<text x="2320" y="1168" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400">ts</text>
+<text x="2320" y="1196" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<text x="2030" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400">type</text>
+<text x="2320" y="1224" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(30)</text>
+<text x="2030" y="1252" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="1252" font-family="Arial,sans-serif" font-size="16" font-weight="400">from_status</text>
+<text x="2320" y="1252" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(30)</text>
+<text x="2030" y="1280" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="1280" font-family="Arial,sans-serif" font-size="16" font-weight="400">to_status</text>
+<text x="2320" y="1280" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(30)</text>
+<text x="2030" y="1308" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1308" font-family="Arial,sans-serif" font-size="16" font-weight="400">from_cell_id</text>
+<text x="2320" y="1308" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1336" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="1336" font-family="Arial,sans-serif" font-size="16" font-weight="400">to_cell_id</text>
+<text x="2320" y="1336" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="1364" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="1364" font-family="Arial,sans-serif" font-size="16" font-weight="400">reason</text>
+<text x="2320" y="1364" font-family="Arial,sans-serif" font-size="16" font-weight="400">TEXT</text>
+<rect x="2020" y="480" width="540" height="324" fill="white" stroke="#333"/><rect x="2021" y="481" width="538" height="35" fill="#d2d2d2"/>
+<text x="2245.5" y="504" font-family="Arial,sans-serif" font-size="18" font-weight="700">error_logs</text>
+<text x="2030" y="536" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="2122" y="536" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="2320" y="536" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="564" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="564" font-family="Arial,sans-serif" font-size="16" font-weight="400">occurred_at</text>
+<text x="2320" y="564" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<text x="2030" y="592" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="592" font-family="Arial,sans-serif" font-size="16" font-weight="400">source</text>
+<text x="2320" y="592" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(20)</text>
+<text x="2030" y="620" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="620" font-family="Arial,sans-serif" font-size="16" font-weight="400">user_id</text>
+<text x="2320" y="620" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="648" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="648" font-family="Arial,sans-serif" font-size="16" font-weight="400">pvz_id</text>
+<text x="2320" y="648" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="676" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="676" font-family="Arial,sans-serif" font-size="16" font-weight="400">action</text>
+<text x="2320" y="676" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="2030" y="704" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="704" font-family="Arial,sans-serif" font-size="16" font-weight="400">error_code</text>
+<text x="2320" y="704" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(100)</text>
+<text x="2030" y="732" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="732" font-family="Arial,sans-serif" font-size="16" font-weight="400">reason</text>
+<text x="2320" y="732" font-family="Arial,sans-serif" font-size="16" font-weight="400">TEXT</text>
+<text x="2030" y="760" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="760" font-family="Arial,sans-serif" font-size="16" font-weight="400">file_name</text>
+<text x="2320" y="760" font-family="Arial,sans-serif" font-size="16" font-weight="400">TEXT</text>
+<text x="2030" y="788" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="788" font-family="Arial,sans-serif" font-size="16" font-weight="400">row_number</text>
+<text x="2320" y="788" font-family="Arial,sans-serif" font-size="16" font-weight="400">INTEGER</text>
+<rect x="2020" y="80" width="540" height="296" fill="white" stroke="#333"/><rect x="2021" y="81" width="538" height="35" fill="#d2d2d2"/>
+<text x="2192.0" y="104" font-family="Arial,sans-serif" font-size="18" font-weight="700">idempotency_requests</text>
+<text x="2030" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK</text>
+<text x="2122" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">id</text>
+<text x="2320" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">FK</text>
+<text x="2122" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">user_id</text>
+<text x="2320" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="400">BIGINT</text>
+<text x="2030" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">idempotency_key</text>
+<text x="2320" y="192" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(255)</text>
+<text x="2030" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">request_hash</text>
+<text x="2320" y="220" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(64)</text>
+<text x="2030" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">http_method</text>
+<text x="2320" y="248" font-family="Arial,sans-serif" font-size="16" font-weight="400">VARCHAR(10)</text>
+<text x="2030" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">request_path</text>
+<text x="2320" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="400">TEXT</text>
+<text x="2030" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400">response_status</text>
+<text x="2320" y="304" font-family="Arial,sans-serif" font-size="16" font-weight="400">SMALLINT</text>
+<text x="2030" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400">response_body</text>
+<text x="2320" y="332" font-family="Arial,sans-serif" font-size="16" font-weight="400">JSONB</text>
+<text x="2030" y="360" font-family="Arial,sans-serif" font-size="16" font-weight="400"></text>
+<text x="2122" y="360" font-family="Arial,sans-serif" font-size="16" font-weight="400">created_at</text>
+<text x="2320" y="360" font-family="Arial,sans-serif" font-size="16" font-weight="400">TIMESTAMPTZ</text>
+<text x="40" y="1465" font-family="Arial,sans-serif" font-size="16" font-weight="400">PK — primary key     FK — foreign key     UK — unique column     Arrows: referenced table → referencing field</text>
+<text x="40" y="1493" font-family="Arial,sans-serif" font-size="16" font-weight="400">Composite foreign keys include pvz_id. Full constraints and defaults: database-schema.md / V1__create_initial_schema.sql</text>
+</svg>
