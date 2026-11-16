@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой ПВЗ</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <span class="brand">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9 5v10l-9 5-9-5V7Zm0 10 9-5m-9 5L3 7m9 5v10"/></svg>
+    Мой ПВЗ
+  </span>
+  <div class="header-actions">
+    <details id="account" class="account" hidden>
+      <summary aria-label="Профиль">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2"/></svg>
+      </summary>
+      <div class="account-panel">
+        <strong id="name"></strong>
+        <p id="role"></p>
+        <button type="button" class="secondary" id="logout">Выйти</button>
+      </div>
+    </details>
+    <button type="button" id="menu" class="menu" aria-controls="navigation" aria-expanded="false" aria-label="Меню" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="sign-in" class="sign-in" hidden>
+  <img src="/login-illustration.png" alt="" width="700" height="825">
+  <form id="login">
+    <h1>Вход в систему</h1>
+    <label>Имя пользователя <input name="login" autocomplete="username" maxlength="100" required></label>
+    <label for="password">Пароль</label>
+    <div class="password-field">
+      <input id="password" type="password" name="password" autocomplete="current-password" maxlength="200" required>
+      <button id="toggle-password" type="button" aria-label="Показать пароль" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-6 10-6 10 6 10 6-3 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+      </button>
+    </div>
+    <button class="sign-in-button" type="submit">Войти</button>
+    <p id="login-message" class="notice" role="status" hidden></p>
+  </form>
+</main>
+
+<div id="workspace" class="workspace" hidden>
+  <nav id="navigation" aria-label="Разделы ПВЗ">
+    <a href="#home" aria-current="page"><span aria-hidden="true">⌂</span>Главная</a>
+    <a href="#operations" data-employee><span aria-hidden="true">▤</span>Операции</a>
+    <a href="#shipments" data-employee><span aria-hidden="true">▣</span>Заказы</a>
+    <a href="#cells" data-employee><span aria-hidden="true">◇</span>Ячейки</a>
+  </nav>
+  <main class="content">
+    <p id="message" class="notice" role="status" hidden></p>
+    <section id="home" tabindex="-1">
+      <p class="breadcrumb">Главная</p>
+      <h1 id="point-title">Доступные пункты выдачи</h1>
+      <ul id="points" class="point-list"></ul>
+      <div class="actions">
+        <button id="new-receipt" type="button" data-employee><span aria-hidden="true">＋</span> Новая операция</button>
+        <a class="button secondary" href="/api/exports/operations">Скачать снимок CSV</a>
+      </div>
+      <dl id="metrics" class="metrics" data-employee>
+        <div><dt>На складе</dt><dd id="stored">—</dd></div>
+        <div><dt>Ожидается</dt><dd id="expected">—</dd></div>
+        <div><dt>Заказов</dt><dd id="total">—</dd></div>
+        <div><dt>Ячеек с местом</dt><dd id="free-cells">—</dd></div>
+      </dl>
+      <section id="operations" data-employee tabindex="-1">
+        <h2>Недавние действия</h2>
+        <div class="table-frame"><table>
+          <thead><tr><th scope="col">Код операции</th><th scope="col">Тип операции</th><th scope="col">Код заказа</th><th scope="col">Дата и время</th></tr></thead>
+          <tbody id="recent-rows"></tbody>
+        </table></div>
+      </section>
+      <section id="cells" data-employee tabindex="-1">
+        <h2>Ячейки</h2>
+        <div class="table-frame"><table>
+          <thead><tr><th scope="col">Номер ячейки</th><th scope="col">Свободный объём, л</th></tr></thead>
+          <tbody id="cell-rows"></tbody>
+        </table></div>
+      </section>
+      <section id="shipments" data-employee tabindex="-1">
+        <h2>Заказы</h2>
+        <div class="table-frame"><table>
+          <thead><tr><th scope="col">Код заказа</th><th scope="col">Статус</th><th scope="col">Объём, л</th></tr></thead>
+          <tbody id="shipment-rows"></tbody>
+        </table></div>
+      </section>
+    </section>
+
+    <section id="intake" hidden>
+      <p class="breadcrumb"><a href="#home">Главная</a> <span aria-hidden="true">›</span> Новая операция</p>
+      <h1>Новая операция</h1>
+      <div class="operation-type">Тип <strong>● Приём</strong></div>
+      <form id="lookup" class="operation-form">
+        <label for="code">Код отправления</label>
+        <div class="search-field">
+          <input id="code" name="code" maxlength="100" required>
+          <button type="submit" class="secondary">Найти</button>
+        </div>
+      </form>
+      <p id="shipment" aria-live="polite"></p>
+      <form id="receipt" class="operation-form" hidden>
+        <label for="cell">Ячейка</label>
+        <select id="cell" name="cellId" required></select>
+        <button type="submit" class="confirm"><span aria-hidden="true">✓</span> Провести и закрыть</button>
+      </form>
+    </section>
+  </main>
+</div>
+<footer id="footer" hidden>«Мой ПВЗ», 2026</footer>
+</body>
+</html>

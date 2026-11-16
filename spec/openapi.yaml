@@ -1,0 +1,235 @@
+openapi: 3.1.0
+info:
+  title: Система ПВЗ
+  version: 0.1.0
+  description: Контракт реализованного сценария входа, приёмки и экспорта.
+security:
+  - session: []
+paths:
+  /api/auth/login:
+    post:
+      summary: Войти в систему
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [login, password]
+              properties:
+                login: {type: string, minLength: 1, maxLength: 100}
+                password: {type: string, minLength: 1, maxLength: 200}
+            example: {login: employee, password: pvz-demo-2026}
+      responses:
+        '200':
+          description: Пользователь вошёл, сервер устанавливает cookie сессии
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/User'}
+        '400': {$ref: '#/components/responses/Error'}
+        '401': {$ref: '#/components/responses/Error'}
+  /api/auth/me:
+    get:
+      summary: Текущий пользователь
+      responses:
+        '200':
+          description: Учётная запись
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/User'}
+        '401': {$ref: '#/components/responses/Error'}
+  /api/auth/logout:
+    post:
+      summary: Завершить сессию
+      security: []
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+            example: {}
+      responses:
+        '204': {description: Сессия завершена}
+  /api/pvz:
+    get:
+      summary: Доступные активные точки
+      responses:
+        '200':
+          description: Своя точка, точки региона или вся сеть в зависимости от роли
+          content:
+            application/json:
+              schema:
+                type: array
+                items: {$ref: '#/components/schemas/Point'}
+              example: [{id: 1, name: DEMO-1, address: 'Учебная улица, 1', regionId: 1, capacityPerHour: 12}]
+        '401': {$ref: '#/components/responses/Error'}
+  /api/overview:
+    get:
+      summary: Главная страница сотрудника ПВЗ
+      responses:
+        '200':
+          description: Счётчики и до десяти последних заказов и операций своей точки
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  totals:
+                    type: object
+                    properties:
+                      stored: {type: integer, format: int64}
+                      expected: {type: integer, format: int64}
+                      shipments: {type: integer, format: int64}
+                  shipments:
+                    type: array
+                    items: {$ref: '#/components/schemas/Shipment'}
+                  operations:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: {type: integer, format: int64}
+                        type: {type: string}
+                        code: {type: [string, 'null']}
+                        time: {type: string, format: date-time}
+        '401': {$ref: '#/components/responses/Error'}
+        '403': {$ref: '#/components/responses/Error'}
+  /api/cells:
+    get:
+      summary: Активные ячейки точки сотрудника
+      responses:
+        '200':
+          description: Номера ячеек и остаток объёма в литрах
+          content:
+            application/json:
+              schema:
+                type: array
+                items: {$ref: '#/components/schemas/Cell'}
+        '401': {$ref: '#/components/responses/Error'}
+        '403': {$ref: '#/components/responses/Error'}
+  /api/shipments/{code}:
+    parameters:
+      - name: code
+        in: path
+        required: true
+        schema: {type: string, maxLength: 100}
+    get:
+      summary: Найти отправление своей точки по коду
+      responses:
+        '200':
+          description: Отправление
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Shipment'}
+        '401': {$ref: '#/components/responses/Error'}
+        '403': {$ref: '#/components/responses/Error'}
+        '404': {$ref: '#/components/responses/Error'}
+  /api/receipts:
+    post:
+      summary: Принять ожидаемое отправление в выбранную ячейку
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: {type: string, minLength: 1, maxLength: 255}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [code, cellId]
+              properties:
+                code: {type: string, minLength: 1, maxLength: 100}
+                cellId: {type: integer, format: int64, minimum: 1}
+            example: {code: DEMO-001, cellId: 1}
+      responses:
+        '201':
+          description: Отправление принято. Повтор с тем же ключом и полями возвращает тот же результат
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Receipt'}
+              example: {id: 1, cellId: 1, operationId: 1, status: STORED, freeLiters: 7}
+        '400': {$ref: '#/components/responses/Error'}
+        '401': {$ref: '#/components/responses/Error'}
+        '403': {$ref: '#/components/responses/Error'}
+        '404': {$ref: '#/components/responses/Error'}
+        '409':
+          description: Конфликт состояния, расписания, вместимости, ячейки или ключа
+          content:
+            application/problem+json:
+              schema: {$ref: '#/components/schemas/Problem'}
+              example: {status: 409, code: CELL_FULL, detail: Свободного объёма в ячейке недостаточно.}
+  /api/exports/operations:
+    get:
+      summary: Скачать согласованный архив CSV для 1С по области доступа
+      responses:
+        '200':
+          description: ZIP со снимком, ПВЗ, расписанием и операциями
+          headers:
+            X-Snapshot-Id:
+              schema: {type: string, format: uuid}
+            X-Snapshot-Time:
+              schema: {type: string, format: date-time}
+          content:
+            application/zip:
+              schema: {type: string, format: binary}
+        '401': {$ref: '#/components/responses/Error'}
+components:
+  securitySchemes:
+    session:
+      type: apiKey
+      in: cookie
+      name: JSESSIONID
+  responses:
+    Error:
+      description: Запрос отклонён
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+  schemas:
+    User:
+      type: object
+      properties:
+        id: {type: integer, format: int64}
+        login: {type: string}
+        name: {type: string}
+        role: {type: string, enum: [EMPLOYEE, SUPERVISOR, ANALYST]}
+        pvzId: {type: [integer, 'null'], format: int64}
+        regionId: {type: [integer, 'null'], format: int64}
+    Point:
+      type: object
+      properties:
+        id: {type: integer, format: int64}
+        name: {type: string}
+        address: {type: string}
+        regionId: {type: integer, format: int64}
+        capacityPerHour: {type: integer}
+    Cell:
+      type: object
+      properties:
+        id: {type: integer, format: int64}
+        number: {type: integer}
+        freeLiters: {type: number}
+    Shipment:
+      type: object
+      properties:
+        id: {type: integer, format: int64}
+        code: {type: string}
+        status: {type: string, enum: [EXPECTED, STORED, ISSUED, RETURN_STORED, RETURN_SHIPPED]}
+        volumeLiters: {type: number}
+        cellId: {type: [integer, 'null'], format: int64}
+    Receipt:
+      type: object
+      properties:
+        id: {type: integer, format: int64}
+        operationId: {type: integer, format: int64}
+        cellId: {type: integer, format: int64}
+        status: {type: string, const: STORED}
+        freeLiters: {type: number}
+    Problem:
+      type: object
+      properties:
+        status: {type: integer}
+        detail: {type: string}
+        code: {type: string}

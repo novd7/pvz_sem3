@@ -34,3 +34,5 @@
 - [Описание уровня System Context в модели C4](https://c4model.com/diagrams/system-context).
 
 Исходник изображения: [c4-context.drawio](images/c4-context.drawio).
+
+Следующие уровни модели — [C4 Container](c4-container.md) и [C4 Component Spring Boot](c4-component.md).

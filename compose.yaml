@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: pvz
+      POSTGRES_USER: pvz
+      POSTGRES_PASSWORD: ${PVZ_DB_PASSWORD:-pvz-demo-db}
+    volumes:
+      - pvz-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pvz -d pvz"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: ./backend
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: demo
+      PVZ_DB_URL: jdbc:postgresql://db:5432/pvz
+      PVZ_DB_USER: pvz
+      PVZ_DB_PASSWORD: ${PVZ_DB_PASSWORD:-pvz-demo-db}
+    ports:
+      - "127.0.0.1:${PVZ_PORT:-8080}:8080"
+
+volumes:
+  pvz-data:
